@@ -11,4 +11,5 @@ urlpatterns = [
     path('about/', views.about, name='about'),   # 访问关于我们路由
     path('shopcart/', views.shopcart, name='shopcart'),   # 访问购物车路由
     path('details/', views.details, name='details'),   # 访问产品详情路由
+    path('add/', views.add),   # 访问产品详情路由
 ]

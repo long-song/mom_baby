@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,HttpResponse
 
 # Create your views here.
 
@@ -65,3 +65,11 @@ def details(request):
     :return:
     '''
     return render(request,'details.html')
+
+def add(request):
+    """
+
+    :param request:
+    :return:
+    """
+    return HttpResponse("add")
